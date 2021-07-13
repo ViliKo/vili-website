@@ -5,34 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
+    <title>vilikoivufreelancer</title>
 </head>
 <body>
 
-<main class="hero-section">
-    <small>Who Am I?</small>
-    <h1>ICT student and graphic designer</h1>
-    <p>I’m Vili Koivu student and a freelancer. I'm always learning something new and fun. Currently searcing for internships for junior web developer </p>
-    <button>Contact me</button>
-</main>
+    <nav class="nav-section">
+        <a href="#contact" class="button">Contact me</a>
+    </nav>
 
-<section class="coding-section" >
+    <main class="hero-section section-padding">
+        <div class="hero-section__image">
+            <img src="/img/illustration-2.png" alt="">
+        </div>
+        <div class="hero-section__text margin-standard">
+            <small>Who Am I?</small>
+            <h1>ICT student and graphic designer</h1>
+            <p>I’m Vili Koivu student and a freelancer. I'm always learning something new and fun. Currently searcing for internships for junior web developer </p>
+            <a href="#contact" class="button">Contact me</a>
+        </div>
+    </main>
 
-    <div class="coding-section-text">
-        <small>My Skills</small>
-        <h2>My core languages</h2>
-        <p>JavaScript and Python are the
-    main languages I have worked with
-    also know html, css and sass. I especially
-    like css for making all kinds of graphics.
-    In the future I would like to learn more about React</p>
+
+    <section class="coding-section section-padding" >
+
+        <div class="coding-section-visual-studio-box  margin-standard">
+            <div id="typedtext"></div>  
+        </div>
+
+        <div class="coding-section__text margin-standard">
+            <small>My Skills</small>
+            <h2>My core languages</h2>
+            <p>JavaScript and Python are the
+            main languages I have worked with
+            also know html, css and sass. I especially
+            like css for making all kinds of graphics.
+            In the future I would like to learn more about React</p>
+        </div>
+
+    </section>
+
+
+    <section class="graphic-design-section section-padding">
+
+        <div class="graphic-design-section__text margin-standard">
+            <h2>Desing experience</h2>
+            <p>Also I have experience on design I worked as a layout
+            designer for a newspaper. Worked also on summer
+            festival making posters and leaflets. I love animations
+            in css and adding interactivity on the page. Also I’m
+            very intrested in UX and UI. </p>
+        </div>
+
+        <div class="graphic-design-section__animation">
+            <div id="typedtext"></div>  
+        </div>
+
+    </section>
+
+    <div class="toptexts2" id="toptexts2">
+        <div>Hi!</div>
+        <div>↓ go down ↓</div>
     </div>
 
-    <div class="visual-studio-box">
-        <div id="typedtext"></div>  
-    </div>
-</section>
+    <section class="contact-section section-padding" id="contact">
+
+        <div class="contact-section__card margin-standard">
+            <h2>Contact me</h2>
+            <address>vilikoivu@gmail.com</address>
+            <address>0400215229</address>
+            <address>currently living in Riihimäki</address>
+            
+            <div class="contact-section__icons">
+                <i class="icon1"></i>
+                <i class="icon2"></i>
+                <i class="icon3"></i>
+                <i class="icon4"></i>
+                <i class="icon5"></i>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    
+    <footer>
+
+    </footer>
+    
     
     <script src="app.js"></script>
+
 </body>
 </html>

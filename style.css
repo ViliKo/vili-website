@@ -1,3 +1,9 @@
+/* standard */
+
+img {
+    width: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,17 +25,101 @@ html {
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:3rem; 
+    font-family: 'Montserrat', sans-serif;
 
   }
 
+h1, h2 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+p {
+    font-size: 2.4rem;
+}
+
+/* tools */
+
+.margin-standard {
+    margin: 3rem;
+}
+
+.section-padding {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+
+
+/* components */
+
+.button {
+    margin-top: 2rem;
+    display: block;
+    background: greenyellow;
+    color: blue;
+    padding: 1rem 2rem;
+    font-weight: 800;
+}
+
+
+/* nav section */
+
+.nav-section {
+}
+
+/* hero section */
+
+
+
+
+
+/* Coding section */
+
 .coding-section {
+    width: 100%;
+    background: blue;
+    color: white;
+}
+
+.coding-section__text {
+
+}
+
+.coding-section__visual-studio-box {
+    background: blue;
+}
+
+
+
+
+/* graphic design section */
+
+.graphic-design-section {
     width: 100%;
 }
 
-.coding-section-text {
+.graphic-design-section__text {
 
 }
 
-.visual-studio-box {
-
+.graphic-design-section__animation {
+    background: blue;
 }
+
+
+
+/* contact section */
+
+.contact-section {
+    background: blue;
+    color: white;
+}
+
+.toptexts2 {
+    animation: fadeEffect 3s; /* fading effect takes 3s */
+ }
+ 
+ @keyframes fadeEffect { /* from 0 to full opacity */
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
