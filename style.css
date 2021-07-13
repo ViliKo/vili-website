@@ -38,6 +38,10 @@ p {
     font-size: 2.4rem;
 }
 
+small {
+    font-weight: 800;
+}
+
 /* tools */
 
 .margin-standard {
@@ -115,11 +119,28 @@ p {
     color: white;
 }
 
-.toptexts2 {
-    animation: fadeEffect 3s; /* fading effect takes 3s */
- }
- 
- @keyframes fadeEffect { /* from 0 to full opacity */
-    from {opacity: 0;}
-    to {opacity: 1;}
- }
+.reveal {
+    position: relative;
+    transform: translateX(-20rem);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateX(0rem);
+    opacity: 1;
+}
+
+
+
+  
+span {
+border-right: .05em solid;
+animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+50% {
+    border-color: transparent;
+}
+}
