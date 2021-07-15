@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
     let text = "";
-    var dataText = [ "Riihimäki.", "Full Service.", "Student and Graphic Designer", "Looking for internship"];
+    var dataText = [ "Riihimäki.", "Full Service.", "Student & Graphic Designer", "Looking for Internship"];
     
     // type one text in the typwriter
     // keeps calling itself until the text is finished
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded',function(event){
       // chekc if text isn't finished yet
       if (i < (text.length)) {
         // add next character to h1
-       document.querySelector(".codeText").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+       document.querySelector(".code-text").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
   
         // wait for a while and call this function again for next character
         setTimeout(function() {
@@ -63,3 +63,15 @@ window.addEventListener("scroll", ()=> {
         }
     }
 });
+
+const x = document.querySelector(".side-menu")
+
+document.getElementById("hamburger").addEventListener("click", ()=> {
+  
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+})

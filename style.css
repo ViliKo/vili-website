@@ -1,3 +1,11 @@
+/* variables */
+
+:root {
+    --main-color: #0025FF;
+    --secondary-color: #41FF0D;
+    --accent-color: #FFA70D;
+  }
+
 /* standard */
 
 img {
@@ -32,14 +40,28 @@ body {
 h1, h2 {
     font-size: 5rem;
     margin-bottom: 3rem;
+    max-width: 60rem;
 }
 
 p {
     font-size: 2.4rem;
+    margin-bottom: 5rem;
+    max-width: 50rem;
 }
 
 small {
     font-weight: 800;
+    font-size: 2rem;
+}
+
+hr {
+    border-top: .2rem solid var(--accent-color);
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+address {
+    font-style: normal;
 }
 
 /* tools */
@@ -57,10 +79,13 @@ small {
 /* components */
 
 .button {
+    text-align: center;
+    font-size: 2rem;
+    width: 20rem;
     margin-top: 2rem;
     display: block;
-    background: greenyellow;
-    color: blue;
+    background: var(--secondary-color);
+    color: var(--main-color);
     padding: 1rem 2rem;
     font-weight: 800;
 }
@@ -69,19 +94,63 @@ small {
 /* nav section */
 
 .nav-section {
+    right: 0;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    position: fixed;
+    z-index: 1001;
 }
+
+.nav-section__hamburger {
+    width: 5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+
+/* side menu */
+
+.side-menu {
+    z-index: 1000;
+    height: 100vh;
+    position: fixed;
+    width: -30%;
+    right: 0;
+    background: var(--accent-color);
+
+}
+
+.side-menu > a:first-child {
+    padding-top: 13rem;
+    background: none;
+}
+
+.side-menu > a {
+    background: none;
+}
+
 
 /* hero section */
 
 
+.hero-section {
 
+}
 
+.hero-section__text {
+
+}
+
+.hero-section__image {
+    
+
+}
 
 /* Coding section */
 
 .coding-section {
     width: 100%;
-    background: blue;
+    background: var(--main-color);
     color: white;
 }
 
@@ -90,9 +159,12 @@ small {
 }
 
 .coding-section__visual-studio-box {
-    background: blue;
+    background: var(--main-color);
 }
 
+.code-text {
+    height: 30rem;
+}
 
 
 
@@ -107,7 +179,7 @@ small {
 }
 
 .graphic-design-section__animation {
-    background: blue;
+    background: var(--main-color);
 }
 
 
@@ -115,9 +187,117 @@ small {
 /* contact section */
 
 .contact-section {
-    background: blue;
+    background: var(--main-color);
     color: white;
 }
+
+.coding-section__card {
+    font-style: normal;
+}
+
+.icon {
+    width: 3rem;
+    display: block;
+    float: left;
+}
+
+
+/* gallery */
+
+
+  
+  .heading {
+      text-align: center;
+      font-size: 2.0em;
+      letter-spacing: 1px;
+      padding: 40px;
+
+  }
+  
+  .gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-image img {
+    height: 250px;
+    width: 350px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+  }
+  
+  .img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .img-box:hover img { 
+    transform: scale(1.1);
+  }
+  
+  .img-box:hover .transparent-box {
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+  
+  .img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+  }
+  
+  .img-box:hover {
+    cursor: pointer;
+  }
+  
+  .caption > p:nth-child(2) {
+    font-size: 0.8em;
+  }
+  
+  .opacity-low {
+    opacity: 0.5;
+  }
+
+/* footer */
+
+.footer-section {
+
+    background: var(--main-color);
+    color: white;
+}
+
+.footer-section__text > small {
+    font-size: 1rem;
+    display: block;
+
+}
+
+/* reveals */
 
 .reveal {
     position: relative;
@@ -143,4 +323,24 @@ animation: caret 1s steps(1) infinite;
 50% {
     border-color: transparent;
 }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .hero-section {
+        flex-direction: row-reverse;
+        display: flex;
+    }
+
+
+    .hero-section__text {
+        flex: 1;
+    }
+    
+    .hero-section__image {
+        flex: 1;
+        align-self: center;
+        overflow: hidden;
+    }
+    
 }

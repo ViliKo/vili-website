@@ -13,7 +13,14 @@
 <body>
 
     <nav class="nav-section">
-        <a href="#contact" class="button">Contact me</a>
+        <div class="nav-section__hamburger" id="hamburger">
+            <img src="./img/6243858_hamburger_list_menu_icon.svg" alt="">
+        </div>
+    </nav>
+
+    <nav class="side-menu" style="display: none;">
+        <a href="#contact" class="button">Contact Me</a>
+        <a href="#portfolio" class="button">Portfolio</a>
     </nav>
 
     <main class="hero-section section-padding">
@@ -22,7 +29,8 @@
         </div>
         <div class="hero-section__text margin-standard reveal">
             <small>Who Am I?</small>
-            <h1>ICT student and graphic designer</h1>
+            <hr>
+            <h1>ICT Student &#38; Graphic Designer</h1>
             <p>I’m Vili Koivu student and a freelancer. I'm always learning something new and fun. Currently searcing for internships for junior web developer </p>
             <a href="#contact" class="button">Contact me</a>
         </div>
@@ -32,17 +40,18 @@
     <section class="coding-section section-padding" >
 
         <div class="coding-section-visual-studio-box  margin-standard">
-            <h1 class="codeText">Hallo, Wij zijn Occhio!</h1>
+            <h1 class="code-text">Hallo, Wij zijn Occhio!</h1>
         </div>
 
         <div class="coding-section__text margin-standard">
             <small>My Skills</small>
-            <h2>My core languages</h2>
+            <hr>
+            <h2>My Core Languages</h2>
             <p>JavaScript and Python are the
-            main languages I have worked with
+            main languages I have worked with. I
             also know html, css and sass. I especially
             like css for making all kinds of graphics.
-            In the future I would like to learn more about React</p>
+            In the future I would like to learn more about React.</p>
         </div>
 
     </section>
@@ -51,8 +60,8 @@
     <section class="graphic-design-section section-padding">
 
         <div class="graphic-design-section__text margin-standard reveal">
-            <h2>Desing experience</h2>
-            <p>Also I have experience on design I worked as a layout
+            <h2>Desing Experience</h2>
+            <p>I have experience on design. I worked as a layout
             designer for a newspaper. Worked also on summer
             festival making posters and leaflets. I love animations
             in css and adding interactivity on the page. Also I’m
@@ -68,26 +77,106 @@
     <section class="contact-section section-padding" id="contact">
 
         <div class="contact-section__card margin-standard reveal">
-            <h2>Contact me</h2>
+            <small>How Do You Find Me?</small>
+            <hr>
+            <h2>Contact Me</h2>
             <address>vilikoivu@gmail.com</address>
             <address>0400215229</address>
             <address>currently living in Riihimäki</address>
             
             <div class="contact-section__icons">
-                <i class="icon1"></i>
-                <i class="icon2"></i>
-                <i class="icon3"></i>
-                <i class="icon4"></i>
-                <i class="icon5"></i>
+                <a class="icon" href="https://www.instagram.com/vilikoivu/" target="_blank">
+                    <img src="./img/instagram.svg" alt="">
+                </a>
+                <a class="icon" href="https://www.linkedin.com/in/vili-koivu-25321017b/" target="_blank">
+                    <img src="./img/linkedin.svg" alt="">
+                </a>
             </div>
         </div>
         
     </section>
 
+    <section class="portfolio-section section-padding" id="portfolio">
+
+        <div class="portfolio-section__text margin-standard">
+            <small>my work</small>
+            <hr>
+            <h1>Portfolio</h1>
+        </div>
+
+        <div class="gallery-image">
+        <div class="img-box">
+            <img src="./img/galleria-1.jpg" alt="" />
+            <div class="transparent-box">
+            <div class="caption">
+                <p>Hooked Saimaa</p>
+                <p class="opacity-low">Brand & Icon Design</p>
+            </div>
+            </div> 
+        </div>
+        <div class="img-box">
+            <img src="./img/galleria-2.jpg" alt="" />
+            <div class="transparent-box">
+            <div class="caption">
+                <p>Hooked Saimaa</p>
+                <p class="opacity-low">Brochure</p>
+            </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="./img/galleria-3.jpg" alt="" />
+            <div class="transparent-box">
+            <div class="caption">
+                <p>Sata Erilaista Nuorta</p>
+                <p class="opacity-low">Design & Photography</p>
+            </div>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="./img/galleria-4.jpg" alt="" />
+            <div class="transparent-box">
+            <div class="caption">
+                <p>Sata Erilaista Nuorta</p>
+                <p class="opacity-low">Calligraphy</p>
+            </div>
+            </div> 
+        </div>
+        <div class="img-box">
+            <img src="./img/galleria-5.jpg" alt="" />
+            <div class="transparent-box">
+            <div class="caption">
+                <p>Puulan uistelijat</p>
+                <p class="opacity-low">Logo</p>
+            </div>
+            </div> 
+        </div>
+        <div class="img-box">
+            <img src="./img/galleria-6.jpg" alt="" />
+            <div class="transparent-box">
+            <div class="caption">
+                <p>Keopi</p>
+                <p class="opacity-low">Coffee Package Design</p>
+            </div>
+            </div> 
+        </div>
+        </div>
+    </section>
+
+    
+
 
 
     
-    <footer>
+    <footer class="footer-section section-padding">
+
+        <div class="footer-section__text margin-standard">
+
+            <small>vilikoivu@gmail.com</small>
+            <small>0400215229</small>
+            <small>currently living in Riihimäki</small>
+            <br>
+            <small>Copyright 2021 by Vili Koivu. All Rights Reserved.</small>
+        </div>
 
     </footer>
     
