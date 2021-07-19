@@ -111,7 +111,7 @@ address {
 /* side menu */
 
 .side-menu {
-    z-index: 1000;
+    z-index: 1001;
     height: 100vh;
     position: fixed;
     width: -30%;
@@ -120,8 +120,10 @@ address {
 
 }
 
+
+
 .side-menu > a:first-child {
-    padding-top: 13rem;
+    margin-top: 13rem;
     background: none;
 }
 
@@ -134,7 +136,6 @@ address {
 
 
 .hero-section {
-
 }
 
 .hero-section__text {
@@ -142,9 +143,9 @@ address {
 }
 
 .hero-section__image {
-    
-
 }
+
+
 
 /* Coding section */
 
@@ -322,8 +323,13 @@ animation: caret 1s steps(1) infinite;
 @keyframes caret {
 50% {
     border-color: transparent;
+    }
 }
-}
+
+/* illustration animation */
+
+
+/* computer */
 
 @media only screen and (min-width: 600px) {
 
@@ -342,5 +348,7 @@ animation: caret 1s steps(1) infinite;
         align-self: center;
         overflow: hidden;
     }
+
+
     
 }
