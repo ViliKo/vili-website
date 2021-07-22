@@ -1,0 +1,12 @@
+---
+layout: wrapper
+---
+
+<h1>Hellous</h1>
+
+{{content}}
+
+{% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{post.title}}</a></li>
+{% endfor %}
+    

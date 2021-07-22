@@ -1,0 +1,76 @@
+/* variables */
+
+:root {
+    --main-color: #0025FF;
+    --secondary-color: #41FF0D;
+    --accent-color: #FFA70D;
+  }
+
+/* standard */
+
+img {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3rem; 
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+h1, h2 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    max-width: 60rem;
+}
+
+p {
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+    max-width: 50rem;
+}
+
+small {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+hr {
+    border-top: .2rem solid var(--accent-color);
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+address {
+    font-style: normal;
+}
+
+/* tools */
+
+.margin-standard {
+    margin: 3rem;
+}
+
+.section-padding {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
