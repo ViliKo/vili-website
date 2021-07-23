@@ -8,10 +8,29 @@
     <title>Document</title>
 </head>
 <body>
-    <p>logo</p>
+    <div class="logo">
+        <a href="{{site.url}}">
+             <img src="{{site.baseurl}}/assets/img/vilikoivufreelancer-logo.png" alt="">
+        </a>
+       
+    </div>
     {% include  menu.html %}
     {{content}}
 
-    
+    <footer class="footer-section">
+
+        <div class="footer-section__text">
+
+            <small>vilikoivu@gmail.com</small>
+            <small>0400215229</small>
+            <small>currently living in Riihimäki</small>
+            <br>
+            <small>Copyright 2021 by Vili Koivu. All Rights Reserved.</small>
+            <small>Made with jekyll.</small>
+        </div>
+
+    </footer>
+
+    <script src="{{site.baseurl}}/assets/app.js"></script>
 </body>
 </html>

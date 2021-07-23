@@ -24,7 +24,7 @@ window.addEventListener('click', function(event) {
   console.log("clicked")
 
   const hamburger = document.getElementById('hamburger');
-  const sideMenu = document.querySelector(".side-menu");
+  const sideMenu = document.querySelector(".side-menu__list");
 
 
   if (event.target != hamburger && event.target != sideMenu) {

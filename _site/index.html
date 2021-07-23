@@ -8,25 +8,36 @@
     <title>Document</title>
 </head>
 <body>
-    <p>logo</p>
-    <nav>
-<ul>
-    <li><a href=" http://localhost:4000 ">Home</a></li>
-    <li><h3>Portfolio</h3></li>
+    <div class="logo">
+        <a href="http://localhost:4000">
+             <img src="/assets/img/vilikoivufreelancer-logo.png" alt="">
+        </a>
+       
+    </div>
     
-        <li><a href="/jekyll/update/2021/07/21/welcome-to-jekyll.html">Hooked saimaa!</a></li>
-    
-        <li><a href="/jekyll/update/2021/07/21/puulan-uistelijat.html">Puulan uistelijat</a></li>
-    
-</ul>
-</nav>
-    <h1>Hellous</h1>
 
-<main class="hero-section section-padding">
+<nav class="side-menu" id="side-menu">
+    <div id="hamburger">
+        menu
+    </div>
+    <div class="side-menu__list" style="display: none;">
+        <ul class="nav-section__hamburger">
+        <li><a href=" http://localhost:4000 ">Home</a></li>
+        <li><h3>Portfolio</h3></li>
+        
+            <li><a href="/jekyll/update/2021/07/21/welcome-to-jekyll.html">Hooked saimaa!</a></li>
+        
+            <li><a href="/jekyll/update/2021/07/21/puulan-uistelijat.html">Puulan uistelijat</a></li>
+        
+        </ul>
+    </div>
+
+</nav>
+    <main class="hero-section">
     <div class="hero-section__image">
         <img src="./img/illustration-2.png" alt="">
     </div>
-    <div class="hero-section__text margin-standard">
+    <div class="hero-section__text">
         <small>Who Am I?</small>
         <hr>
         <h1>ICT Student &#38; Graphic Designer</h1>
@@ -38,13 +49,13 @@
 
 
 
-    <section class="coding-section section-padding" >
+    <section class="coding-section" >
 
-        <div class="coding-section-visual-studio-box  margin-standard">
+        <div class="coding-section__visual-studio-box">
             <h1 class="code-text">Hallo, Wij zijn Occhio!</h1>
         </div>
 
-        <div class="coding-section__text margin-standard">
+        <div class="coding-section__text">
             <small>My Skills</small>
             <hr>
             <h2>My Core Languages</h2>
@@ -58,9 +69,9 @@
     </section>
 
 
-    <section class="graphic-design-section section-padding">
+    <section class="graphic-design-section">
 
-        <div class="graphic-design-section__text margin-standard reveal">
+        <div class="graphic-design-section__text reveal">
             <h2>Desing Experience</h2>
             <p>I have experience on design. I worked as a layout
             designer for a newspaper. Worked also on summer
@@ -69,15 +80,11 @@
             very intrested in UX and UI. </p>
         </div>
 
-        <div class="graphic-design-section__animation">
-            <div id="typedtext"></div>  
-        </div>
-
     </section>
 
-    <section class="contact-section section-padding" id="contact">
+    <section class="contact-section" id="contact">
 
-        <div class="contact-section__card margin-standard reveal">
+        <div class="contact-section__card reveal">
             <small>How Do You Find Me?</small>
             <hr>
             <h2>Contact Me</h2>
@@ -104,9 +111,18 @@
 
 
     
-    <footer class="footer-section section-padding">
 
-        <div class="footer-section__text margin-standard">
+
+
+        <li><a href="/jekyll/update/2021/07/21/welcome-to-jekyll.html">Hooked saimaa!</a></li>
+
+        <li><a href="/jekyll/update/2021/07/21/puulan-uistelijat.html">Puulan uistelijat</a></li>
+
+    
+
+    <footer class="footer-section">
+
+        <div class="footer-section__text">
 
             <small>vilikoivu@gmail.com</small>
             <small>0400215229</small>
@@ -118,13 +134,6 @@
 
     </footer>
 
-
-        <li><a href="/jekyll/update/2021/07/21/welcome-to-jekyll.html">Hooked saimaa!</a></li>
-
-        <li><a href="/jekyll/update/2021/07/21/puulan-uistelijat.html">Puulan uistelijat</a></li>
-
-    
-
-    
+    <script src="/assets/app.js"></script>
 </body>
 </html>

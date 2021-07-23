@@ -4,7 +4,8 @@
     --main-color: #0025FF;
     --secondary-color: #41FF0D;
     --accent-color: #FFA70D;
-  }
+    --white-color: #EEF;
+}
 
 /* standard */
 
@@ -64,13 +65,3 @@ address {
     font-style: normal;
 }
 
-/* tools */
-
-.margin-standard {
-    margin: 3rem;
-}
-
-.section-padding {
-    padding-top: 4rem;
-    padding-bottom: 10rem;
-}

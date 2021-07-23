@@ -8,21 +8,48 @@
     <title>Document</title>
 </head>
 <body>
-    <p>logo</p>
-    <nav>
-<ul>
-    <li><a href=" http://localhost:4000 ">Home</a></li>
-    <li><h3>Portfolio</h3></li>
+    <div class="logo">
+        <a href="http://localhost:4000">
+             <img src="/assets/img/vilikoivufreelancer-logo.png" alt="">
+        </a>
+       
+    </div>
     
-        <li><a href="/jekyll/update/2021/07/21/welcome-to-jekyll.html">Hooked saimaa!</a></li>
-    
-        <li><a href="/jekyll/update/2021/07/21/puulan-uistelijat.html">Puulan uistelijat</a></li>
-    
-</ul>
+
+<nav class="side-menu" id="side-menu">
+    <div id="hamburger">
+        menu
+    </div>
+    <div class="side-menu__list" style="display: none;">
+        <ul class="nav-section__hamburger">
+        <li><a href=" http://localhost:4000 ">Home</a></li>
+        <li><h3>Portfolio</h3></li>
+        
+            <li><a href="/jekyll/update/2021/07/21/welcome-to-jekyll.html">Hooked saimaa!</a></li>
+        
+            <li><a href="/jekyll/update/2021/07/21/puulan-uistelijat.html">Puulan uistelijat</a></li>
+        
+        </ul>
+    </div>
+
 </nav>
     <p>This is the post of hooked saimaa</p>
 
 
-    
+    <footer class="footer-section">
+
+        <div class="footer-section__text">
+
+            <small>vilikoivu@gmail.com</small>
+            <small>0400215229</small>
+            <small>currently living in Riihimäki</small>
+            <br>
+            <small>Copyright 2021 by Vili Koivu. All Rights Reserved.</small>
+            <small>Made with jekyll.</small>
+        </div>
+
+    </footer>
+
+    <script src="/assets/app.js"></script>
 </body>
 </html>

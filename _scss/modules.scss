@@ -1,0 +1,41 @@
+@mixin margin-standard {
+    margin: 3rem;
+}
+
+.hero-section {
+    &__image {
+
+    }
+
+    &__text {
+        @include margin-standard;
+    }
+}
+
+.coding-section {
+    &__visual-studio-box {
+        @include margin-standard;
+    }
+
+    &__text {
+        @include margin-standard;
+    }
+}
+
+.graphic-design-section {
+    &__text {
+        @include margin-standard;
+    }
+}
+
+.contact-section {
+    &__card {
+        @include margin-standard;
+    }
+}
+
+.footer-section {
+    &__text {
+        @include margin-standard;
+    }
+}
