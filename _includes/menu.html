@@ -1,0 +1,30 @@
+
+<nav class="menu">
+    <div class="menu__logo">
+        <a href="{{site.url}}">
+             <img src="{{site.baseurl}}/assets/img/vilikoivufreelancer-logo.png" alt="">
+        </a>
+       
+    </div>
+
+    <div class="menu__hamburger">
+        <img src=" {{site.baseurl}}/assets/img/hamburger.svg " alt="" id="hamburger">
+    </div>
+
+    <nav class="side-menu" id="side-menu">
+
+        <div class="side-menu__list" style="display: none;">
+            <ul>
+                <li><a href=" {{site.url}} ">{{site.data.samplelist.docs[0].title}}</a></li>
+                <li><h3>Portfolio</h3></li>
+                {% for post in site.posts %}
+                    <li><a href="{{ post.url }}">{{post.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </nav>
+
+</nav>
+
+

@@ -1,0 +1,52 @@
+@mixin section-justify {
+	padding-top: 10rem;
+	padding-bottom: 8rem;
+}
+
+.hero-section {
+	@include section-justify;
+}
+
+.coding-section {
+	@include section-justify;
+	background: var(--main-color);
+	color: var(--white-color);
+}
+
+.graphic-design-section {
+	@include section-justify;
+}
+
+.contact-section {
+	@include section-justify;
+	background: var(--main-color);
+	color: var(--white-color);
+}
+
+.portfolio-section {
+	@include section-justify;
+}
+
+.footer-section {
+	@include section-justify;
+	background: var(--main-color);
+	color: var(--white-color);
+}
+
+.article-section {
+	@include section-justify;
+}
+
+/* reveals */
+
+.reveal {
+	position: relative;
+	transform: translateX(-20rem);
+	opacity: 0;
+	transition: all 1s ease;
+
+	&.active {
+		transform: translateX(0rem);
+		opacity: 1;
+	}
+}

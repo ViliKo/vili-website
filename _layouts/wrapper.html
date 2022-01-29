@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- the menu component can be found in the includes folder -->
+    {% include  menu.html %}
+    
+    <!-- Here is where the home.html renders -->
+    {{content}}
+
+    <footer class="footer-section">
+
+        <div class="footer-section-container">
+
+            {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{post.title}}</a></li>
+            {% endfor %}
+
+            <div class="footer-section__text">
+                <small>vilikoivu@gmail.com</small>
+                <small>0400215229</small>
+                <small>currently living in Riihimäki</small>
+                <br>
+                <small>Copyright 2021 by Vili Koivu. All Rights Reserved.</small>
+                <small>Made with jekyll.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{site.baseurl}}/assets/app.js"></script>
+</body>
+</html>
