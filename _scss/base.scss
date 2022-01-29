@@ -1,67 +1,82 @@
 /* variables */
 
 :root {
-    --main-color: #0025FF;
-    --secondary-color: #41FF0D;
-    --accent-color: #FFA70D;
-    --white-color: #EEF;
+	--main-color: #011627;
+	--secondary-color: #e71d36;
+	--accent-color: #2ec4b6;
+	--white-color: #fdfffc;
 }
 
 /* standard */
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 62.5%; 
+	// this makes 1 rem = 10px
+	box-sizing: border-box;
+	font-size: 50%;
 
-
+	@media only screen and (min-width: 1200px) {
+		font-size: 62.5%;
+	}
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:3rem; 
-    font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	font-family: 'Roboto Mono', monospace;
+}
 
-  }
-
-h1, h2 {
-    font-size: 5rem;
-    margin-bottom: 3rem;
-    max-width: 60rem;
+h1,
+h2 {
+	font-size: 5rem;
+	margin-bottom: 3rem;
+	max-width: 60rem;
 }
 
 p {
-    font-size: 2.4rem;
-    margin-bottom: 5rem;
-    max-width: 50rem;
+	font-size: 2.4rem;
+	margin-bottom: 5rem;
+	max-width: 50rem;
+}
+
+ul {
+	list-style-type: none;
 }
 
 small {
-    font-weight: 800;
-    font-size: 2rem;
+	font-weight: 800;
+	font-size: 2rem;
 }
 
 hr {
-    border-top: .2rem solid var(--accent-color);
-    width: 20rem;
-    margin-bottom: 2rem;
+	border-top: .2rem solid var(--accent-color);
+	width: 20rem;
+	margin-bottom: 2rem;
 }
 
 address {
-    font-style: normal;
+	font-style: normal;
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}

@@ -1,41 +1,249 @@
 @mixin margin-standard {
-    margin: 3rem;
+	margin: 3rem;
 }
 
-.hero-section {
-    &__image {
-
-    }
-
-    &__text {
-        @include margin-standard;
-    }
+@mixin center {
+	width: 70%;
+	margin: 0 auto;
 }
 
-.coding-section {
-    &__visual-studio-box {
-        @include margin-standard;
-    }
+// my css rules
+// 1. what kinda box it is
+// 2. width heigh
+// 3. margin padding
+// 4. justify
+// 4. background color
+// 5. font settings
+// 6. media queries
 
-    &__text {
-        @include margin-standard;
-    }
+.menu {
+	display: flex;
+
+	// Menu needs a height lets declare it with rem
+	height: 8rem;
+
+	&__logo {
+		display: flex;
+		margin: 2rem;
+		// Lets make the logo take the whole height of the container
+		flex: 2;
+		justify-content: flex-start;
+
+		& > a {
+			& > img {
+				width: auto;
+				height: 100%;
+			}
+		}
+	}
+
+	&__hamburger {
+		cursor: pointer;
+		display: flex;
+		flex: 1;
+		padding: 2rem;
+		justify-content: flex-end;
+
+		& > img {
+			width: auto;
+			height: 100%;
+		}
+	}
 }
 
-.graphic-design-section {
-    &__text {
-        @include margin-standard;
-    }
+.side-menu {
+	top: 0;
+	z-index: 1001;
+	height: 100vh;
+	position: fixed;
+	width: -30%;
+	max-width: 60vw;
+	right: 0;
+	text-align: right;
+
+	background: var(--accent-color);
+	color: var(--white-color);
+
+	@media only screen and (min-width: 1200px) {
+		max-width: 40vw;
+	}
+
+	&__list {
+		padding: 2rem 2rem;
+		& > a:first-child {
+			margin-top: 13rem;
+			background: none;
+		}
+
+		& > a {
+			background: none;
+		}
+
+		& ul > li {
+			padding-top: 1.5rem;
+		}
+
+		& ul > li:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
-.contact-section {
-    &__card {
-        @include margin-standard;
-    }
+.hero-section-container {
+	@include center;
+
+	@media only screen and (min-width: 1200px) {
+		display: flex;
+	}
+	&__image {
+		@media only screen and (min-width: 1200px) {
+			flex: 2;
+			margin-right: 2rem;
+		}
+	}
+
+	&__text {
+		@media only screen and (min-width: 1200px) {
+			flex: 3;
+			margin-left: 2rem;
+		}
+	}
 }
 
-.footer-section {
-    &__text {
-        @include margin-standard;
-    }
+.coding-section-container {
+	@include center;
+
+	@media only screen and (min-width: 1200px) {
+		display: flex;
+	}
+
+	&__visual-studio-box {
+		height: 40vh;
+		@media only screen and (min-width: 1200px) {
+			flex: 2;
+			margin-right: 2rem;
+		}
+	}
+
+	&__text {
+		@media only screen and (min-width: 1200px) {
+			flex: 3;
+			margin-left: 2rem;
+		}
+	}
+}
+
+.graphic-design-section-container {
+	@include center;
+
+	@media only screen and (min-width: 1200px) {
+		display: flex;
+	}
+	&__text {
+		@media only screen and (min-width: 1200px) {
+			flex: 2;
+			margin-right: 2rem;
+		}
+	}
+
+	&__image {
+		@media only screen and (min-width: 1200px) {
+			flex: 3;
+			margin-left: 2rem;
+		}
+	}
+}
+
+.contact-section-container {
+	@include center;
+	&__card {
+		margin-bottom: 5rem;
+		position: relative;
+		&__icons .icon {
+			color: var(--white-color);
+			float: left;
+			width: 5rem;
+			margin-right: 1rem;
+			display: block;
+		}
+	}
+}
+
+.portfolio-section {
+	&__text {
+		@include center;
+	}
+
+	&__gallery {
+		@media only screen and (min-width: 1200px) {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(auto, 1fr));
+			grid-gap: 10px;
+		}
+
+		&__link {
+			position: relative;
+			display: block;
+
+			&__img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+
+			&__overlay {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				transition: .5s ease;
+				background-color: var(--main-color);
+				z-index: 100;
+
+				& > p {
+					color: white;
+					font-size: 20px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					-webkit-transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+					text-align: center;
+				}
+			}
+
+			&:hover &__overlay {
+				opacity: .8;
+			}
+		}
+	}
+}
+
+.footer-section-container {
+	@include center;
+	&__text {
+	}
+}
+
+.article-section-container {
+	@include center;
+}
+
+/* components */
+
+.button {
+	text-align: center;
+	font-size: 2rem;
+	width: 20rem;
+	margin-top: 2rem;
+	display: block;
+	background: var(--secondary-color);
+	color: var(--main-color);
+	padding: 1rem 2rem;
+	font-weight: 800;
 }

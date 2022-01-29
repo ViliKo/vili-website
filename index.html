@@ -6,15 +6,21 @@ layout: home
 ---
 
 <main class="hero-section">
-    <div class="hero-section__image">
-        <img src="./img/illustration-2.png" alt="">
-    </div>
-    <div class="hero-section__text">
-        <small>Who Am I?</small>
-        <hr>
-        <h1>ICT Student &#38; Graphic Designer</h1>
-        <p>I’m Vili Koivu student and a freelancer. I'm always learning something new and fun. Currently searcing for internships for junior web developer </p>
-        <a href="#contact" class="button">Contact me</a>
+
+    <div class="hero-section-container">
+
+        <div class="hero-section-container__image">
+            <img src="{{site.baseurl}}/assets/img/hero-section-1.png" alt="Illustration of a computer typing itself and drinking coffee">
+        </div>
+
+        <div class="hero-section-container__text">
+            <small>Who am I?</small>
+            <hr>
+            <h1>ICT Student &#38; Graphic Designer</h1>
+            <p>I’m Vili Koivu student and a freelancer. I'm always learning something new and fun. 
+                Currently searcing for internships for a position in junior web development </p>
+            <a href="#contact" class="button">Contact me</a>
+        </div>  
     </div>
 </main>
 
@@ -23,59 +29,68 @@ layout: home
 
     <section class="coding-section" >
 
-        <div class="coding-section__visual-studio-box">
-            <h1 class="code-text">Hallo, Wij zijn Occhio!</h1>
-        </div>
+        <div class="coding-section-container">
 
-        <div class="coding-section__text">
-            <small>My Skills</small>
-            <hr>
-            <h2>My Core Languages</h2>
-            <p>JavaScript and Python are the
-            main languages I have worked with. I
-            also know html, css and sass. I especially
-            like css for making all kinds of graphics.
-            In the future I would like to learn more about React.</p>
+            <div class="coding-section-container__visual-studio-box">
+                <h1 class="code-text">Hallo, Wij zijn Occhio!</h1>
+            </div>
+    
+            <div class="coding-section-container__text">
+                <small>My Skills</small>
+                <hr>
+                <h2>My Core Languages</h2>
+                <p>JavaScript is the main language I have worked with. I
+                also know HTML, CSS and SASS. I especially
+                like CSS for making all kinds of graphics.
+                In the future I would like to learn more about React.</p>
+            </div>
         </div>
-
     </section>
 
 
     <section class="graphic-design-section">
 
-        <div class="graphic-design-section__text reveal">
-            <h2>Desing Experience</h2>
-            <p>I have experience on design. I worked as a layout
-            designer for a newspaper. Worked also on summer
-            festival making posters and leaflets. I love animations
-            in css and adding interactivity on the page. Also I’m
-            very intrested in UX and UI. </p>
-        </div>
+        <div class="graphic-design-section-container">
 
+            <div class="graphic-design-section-container__text reveal">
+                <small>What have I done?</small>
+                <hr>
+                <h2>Design Experience</h2>
+                <p>I have experience in design. I worked as a layout
+                designer for a newspaper. I Worked also on summer
+                festival making posters and leaflets. I’m
+                very intrested in learning about UX and UI. </p>
+            </div>
+
+            <div class="graphic-design-section-container__image">
+                <img src="{{site.baseurl}}/assets/img/monogram-sketch.jpg" alt="Monogram for a brand Brother Berr">
+            </div>
+        </div>
     </section>
 
     <section class="contact-section" id="contact">
 
-        <div class="contact-section__card reveal">
-            <small>How Do You Find Me?</small>
-            <hr>
-            <h2>Contact Me</h2>
-            <address>vilikoivu@gmail.com</address>
-            <address>0400215229</address>
-            <address>currently living in Riihimäki</address>
-            
-  <!--      <div class="contact-section__icons">
-                <a class="icon" href="https://www.instagram.com/vilikoivu/" target="_blank">
-                    <img src="./img/instagram.svg" alt="">
-                </a>
-                <a class="icon" href="https://www.linkedin.com/in/vili-koivu-25321017b/" target="_blank">
-                    <img src="./img/linkedin.svg" alt="">
-                </a>
-            </div>
+        <div class="contact-section-container">
 
--->
+            <div class="contact-section-container__card reveal">
+                <small>How Do You Find Me?</small>
+                <hr>
+                <h2>Contact Me</h2>
+                <address>vilikoivu@gmail.com</address>
+                <address>0400215229</address>
+                <address>currently living in Riihimäki</address>
+                
+                <div class="contact-section-container__card__icons">
+                    <a class="icon" href="https://www.instagram.com/vilikoivu/" target="_blank">
+                        <img src="{{site.baseurl}}/assets/img/instagram.svg" alt="">
+                    </a>
+                    <a class="icon" href="https://www.linkedin.com/in/vili-koivu-25321017b/" target="_blank">
+                        <img src="{{site.baseurl}}/assets/img/linkedin.svg" alt="">
+                    </a>
+                </div>
+
+            </div>
         </div>
-        
     </section>
 
 
