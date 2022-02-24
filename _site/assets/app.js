@@ -95,5 +95,5 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	}
 
 	// start the text animation
-	StartTextAnimation(0);
+	if (document.querySelector('.code-text')) StartTextAnimation(0);
 });
