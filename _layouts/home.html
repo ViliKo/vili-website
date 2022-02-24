@@ -18,7 +18,7 @@ layout: wrapper
 
    <div class="portfolio-section__gallery">
       {% for post in site.posts %}
-      <a class="portfolio-section__gallery__link" href="{{ post.url }}">
+      <a class="portfolio-section__gallery__link" href="{{ site.baseurl }}{{ post.url }}">
 
          <div class="portfolio-section__gallery__link__img">
    
@@ -33,7 +33,6 @@ layout: wrapper
       {% endfor %}
 
    </div>
-   <script src="{{site.baseurl}}/assets/app.js"></script>
 
 
    
