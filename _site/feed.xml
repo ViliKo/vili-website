@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-25T11:50:19+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">vilikoivufreelancer</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Sata Erilaista Nuorta Layout design &amp;amp; Cover design</title><link href="http://localhost:4000/2021/07/21/suomi-100.html" rel="alternate" type="text/html" title="Sata Erilaista Nuorta Layout design &amp;amp; Cover design" /><published>2021-07-21T00:00:00+03:00</published><updated>2021-07-21T00:00:00+03:00</updated><id>http://localhost:4000/2021/07/21/suomi-100</id><content type="html" xml:base="http://localhost:4000/2021/07/21/suomi-100.html">&lt;section class=&quot;article-section&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-25T13:09:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">vilikoivufreelancer</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Sata Erilaista Nuorta Layout design &amp;amp; Cover design</title><link href="http://localhost:4000/2021/07/21/suomi-100.html" rel="alternate" type="text/html" title="Sata Erilaista Nuorta Layout design &amp;amp; Cover design" /><published>2021-07-21T00:00:00+03:00</published><updated>2021-07-21T00:00:00+03:00</updated><id>http://localhost:4000/2021/07/21/suomi-100</id><content type="html" xml:base="http://localhost:4000/2021/07/21/suomi-100.html">&lt;section class=&quot;article-section&quot;&gt;
     &lt;div class=&quot;article-section-container&quot;&gt;
         &lt;h1&gt;Sata Erilaista Nuorta Layout design &amp; Cover design&lt;/h1&gt;
         &lt;p&gt;This is a book design we made celebrating Finland turning 100 years old
             I also took some pictures for the book and wrote some of the text.
         &lt;/p&gt;
 
-        &lt;img src=&quot;/assets/img/sata-erilaista-nuorta-1.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/sata-erilaista-nuorta-2.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/sata-erilaista-nuorta-1.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/sata-erilaista-nuorta-2.jpg&quot; alt=&quot;&quot;&gt;
+
+        &lt;!-- &quot;http://localhost:4000/assets/img/sata-erilaista-nuorta-1.jpg&quot; --&gt;
     &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">Sata Erilaista Nuorta Layout design &amp; Cover design This is a book design we made celebrating Finland turning 100 years old I also took some pictures for the book and wrote some of the text.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/sata-erilaista-nuorta-1.jpg" /><media:content medium="image" url="http://localhost:4000/sata-erilaista-nuorta-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hooked saimaa Website Design</title><link href="http://localhost:4000/2021/07/21/hooked-saimaa-web.html" rel="alternate" type="text/html" title="Hooked saimaa Website Design" /><published>2021-07-21T00:00:00+03:00</published><updated>2021-07-21T00:00:00+03:00</updated><id>http://localhost:4000/2021/07/21/hooked-saimaa-web</id><content type="html" xml:base="http://localhost:4000/2021/07/21/hooked-saimaa-web.html">&lt;section class=&quot;article-section&quot;&gt;
     &lt;div class=&quot;article-section-container&quot;&gt;
@@ -19,10 +21,11 @@
             I tried to enchance the best aspects of the brand design
         &lt;/p&gt;
 
-        &lt;img src=&quot;/assets/img/hooked-saimaa-8.png&quot; alt=&quot;&quot; style=&quot;filter: drop-shadow(0px 10px 10px #0f0f0f);&quot;&gt;
-        &lt;img src=&quot;/assets/img/hooked-saimaa-7.png&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/hooked-saimaa-9.png&quot; alt=&quot;&quot; style=&quot;filter: drop-shadow(0px 10px 10px #0f0f0f);&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-8.png&quot; alt=&quot;&quot; style=&quot;filter: drop-shadow(0px 10px 10px #0f0f0f);&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-7.png&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-9.png&quot; alt=&quot;&quot; style=&quot;filter: drop-shadow(0px 10px 10px #0f0f0f);&quot;&gt;
         
+        &lt;!-- &quot;http://localhost:4000/assets/img/hooked-saimaa-8.png&quot; --&gt;
 
    
 
@@ -39,13 +42,14 @@
             Especially the crown tells our respect and view of the lake.
         &lt;/p&gt;
 
-        &lt;img src=&quot;/assets/img/hooked-saimaa-1.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/hooked-saimaa-2.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/hooked-saimaa-3.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/hooked-saimaa-5.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/hooked-saimaa-6.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-1.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-2.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-3.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-5.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hooked-saimaa-6.jpg&quot; alt=&quot;&quot;&gt;
         
 
+        &lt;!-- &quot;http://localhost:4000/assets/img/hooked-saimaa-1.jpg&quot; --&gt;
    
 
     &lt;/div&gt;
@@ -54,9 +58,11 @@
         &lt;h1&gt;Hotel.we Website Design&lt;/h1&gt;
         &lt;p&gt;I made a website design for hotel.we as a part of a course&lt;/p&gt;
 
-        &lt;img src=&quot;/assets/img/hotelwe-1.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/hotelwe-2.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img src=&quot;/assets/img/hotelwe-3.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hotelwe-1.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hotelwe-2.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/img/hotelwe-3.jpg&quot; alt=&quot;&quot;&gt;
+
+        &lt;!-- &quot;http://localhost:4000/assets/img/hotelwe-1.jpg&quot; --&gt;
 
     &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">Hotel.we Website Design I made a website design for hotel.we as a part of a course</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/hotelwe-1.jpg" /><media:content medium="image" url="http://localhost:4000/hotelwe-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
