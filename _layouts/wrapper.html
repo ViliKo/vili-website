@@ -7,8 +7,9 @@
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="{{site.baseurl}}/assets/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>vilikoivuFreelancer</title>
 </head>
 <body>
     <!-- the menu component can be found in the includes foldedr -->
@@ -21,9 +22,13 @@
 
         <div class="footer-section-container">
 
-            {% for post in site.posts %}
+
+            <ul class="footer-section-container__links">
+                {% for post in site.posts %}
                 <li><a href="{{ post.url }}">{{post.title}}</a></li>
-            {% endfor %}
+                {% endfor %}
+            </ul>
+
 
             <div class="footer-section__text">
                 <small>vilikoivu@gmail.com</small>
