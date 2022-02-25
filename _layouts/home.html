@@ -16,11 +16,11 @@ layout: wrapper
 
    <div class="portfolio-section__gallery">
       {% for post in site.posts %}
-      <a class="portfolio-section__gallery__link" href=".{{post.url}}">
+      <a class="portfolio-section__gallery__link" href="{{post.url}}">
 
          <div class="portfolio-section__gallery__link__img">
    
-            <img src="./assets/img/{{post.image}}" alt="" />
+            <img src="/assets/img/{{post.image}}" alt="" />
          </div>
 
          <div class="portfolio-section__gallery__link__overlay">
